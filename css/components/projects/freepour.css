@@ -1,0 +1,13 @@
+#freepour {
+  position: relative;
+  padding: 150px 0 50px 0;
+}
+
+.title.freepour, .description.freepour {
+  text-align: center;
+  margin: 0 32px 0 32px;
+}
+
+.freepour-item1 {
+  width: 260px;
+}

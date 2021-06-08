@@ -1,0 +1,38 @@
+#leduc {
+  position: relative;
+  padding-bottom: 300px;
+}
+
+.title.leduc {
+  grid-column: col-start 2 / span 3;
+  grid-row: 18;
+}
+
+.description.leduc {
+  grid-column: col-start 7 / span 6;
+  grid-row: 17;
+}
+
+.leduc-item1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 396px;
+}
+
+
+.leduc-item2 {
+  position: absolute;
+  top: 440px;
+  left: 136px;
+  width: 265px;
+  z-index: -2;
+}
+
+.leduc-item3 {
+  position: absolute;
+  top: 500px;
+  left: -32px;
+  width: 195px;
+  z-index: -1;
+}

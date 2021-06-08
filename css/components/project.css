@@ -13,11 +13,16 @@
   gap: 20px;
 }
 
-.project h1 {
+.project h1,
+.project-dev h1 {
   text-transform: uppercase;
   margin: 0;
 }
 
 .project p {
   margin: 0;
+}
+
+.project-dev {
+  background-color: #FFDCCC;
 }

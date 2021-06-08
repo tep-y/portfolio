@@ -1,0 +1,16 @@
+#notifiq {
+  position: relative;
+  padding: 150px 0 100px 0;
+}
+
+.title.notifiq, .description.notifiq {
+  text-align: center;
+  margin: 0 32px 0 32px;
+}
+
+.notifiq-item1 {
+  /* position: absolute;
+  top: 0px;
+  left: 120px; */
+  width: 294px;
+}

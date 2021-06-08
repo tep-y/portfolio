@@ -3,5 +3,8 @@
 @import url('./project.css');
 
 /* projects */
-@import url('./alcyon.css');
-@import url('./cocotte.css');
+@import url('./projects/alcyon.css');
+@import url('./projects/cocotte.css');
+@import url('./projects/leduc.css');
+@import url('./projects/freepour.css');
+@import url('./projects/notifiq.css');
