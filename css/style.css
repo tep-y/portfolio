@@ -10,11 +10,20 @@
 @import url('components/card.css'); */
 
 /* Utilities */
-body {
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* body {
   margin: 0;
   font-family: 'Josefin Sans', sans-serif;
   overflow-x: hidden;
-}
+} */
 
 h1 {
   font-size: 48px;
