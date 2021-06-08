@@ -8,6 +8,12 @@
   text-align: center;
 }
 
+.footer p {
+  font-size: 11px;
+  margin: 0;
+  padding-top: 32px;
+}
+
 .list-inline {
   list-style: none;
   padding-left: 0px;
