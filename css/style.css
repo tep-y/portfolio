@@ -1,64 +1,65 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap');
 
 /* Fontawesome */
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 
 /* Other components */
-@import url('components/button.css');
-@import url('components/card.css');
-@import url('components/banner.css');
+@import url('components/index.css');
+/* @import url('components/button.css');
+@import url('components/card.css'); */
 
 /* Utilities */
 body {
   margin: 0;
-  font-family: Open Sans;
+  font-family: 'Josefin Sans', sans-serif;
+  overflow-x: hidden;
 }
 
-h1, h2, h3, h4 {
-  font-family: Poppins;
+h1 {
+  font-size: 48px;
+  font-weight: 700;
 }
+
+.main-title {
+  text-align: center;
+  padding-bottom: 150px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 12;
+  font-weight: 400;
+}
+
+/* h1, h2, h3, h4 {
+  font-family: 'Josefin Sans', sans-serif;
+} */
 
 a {
   text-decoration: none;
+  color: #FFDCCC;
+  font-weight: 700;
 }
 
 /* Custom design below! */
-.how-h2 {
-  text-align: center;
-  margin-top: 60px;
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+
 }
 
-.container {
-  width: 990px;
-  margin: auto;
+/* Larger than tablet */
+@media (min-width: 750px) {
+
 }
 
-.footer {
-  background-color: #9ddfd3;
-  padding: 50px;
-  text-align: center;
+/* Larger than desktop */
+@media (min-width: 1000px) {
+
 }
-
-.footer p {
-  font-size: 12px;
-}
-
-.list-inline {
-  list-style: none;
-  padding-left: 0px;
-}
-
-.list-inline li {
-  display: inline;
-  padding: 10px;
-}
-
-.list-inline a {
-  font-size: 30px;
-  text-decoration: none;
-  color: #31326f;
-}
-
-
-

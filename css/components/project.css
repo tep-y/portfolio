@@ -1,0 +1,23 @@
+/* ipad device 
+
+.container {
+  display: block;
+  margin: auto;
+  width: 420px;
+}
+*/
+
+.project {
+  display: grid;
+  grid-template-columns: repeat(12, [col-start] 1fr);
+  gap: 20px;
+}
+
+.project h1 {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.project p {
+  margin: 0;
+}

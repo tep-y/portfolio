@@ -1,0 +1,43 @@
+#cocotte {
+  position: relative;
+  padding-bottom: 150px;
+}
+
+.title.cocotte {
+  grid-column: col-start 3 / span 2;
+  grid-row: 17;
+}
+
+.description.cocotte {
+  grid-column: col-start 3 / span 6;
+  grid-row: 18;
+}
+
+.cocotte-item1 {
+  position: absolute;
+  top: 0px;
+  left: 120px;
+  width: 285px;
+}
+
+.cocotte-item2 {
+  position: absolute;
+  top: 120px;
+  left: -50px;
+  width: 241px;
+}
+
+.cocotte-item3 {
+  position: absolute;
+  top: 520px;
+  left: 180px;
+  width: 223px;
+}
+
+.cocotte-item4 {
+  position: absolute;
+  top: 640px;
+  left: 0px;
+  width: 385px;
+  z-index: -1;
+}

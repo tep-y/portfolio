@@ -1,23 +1,19 @@
-/*banner css*/
-
-.banner {
-  display: flex;
-  height: 550px;
-  background-size: cover;
-  justify-content: center;
-  align-items: center;
+.break {
+  background-color: #FFDCCC;
+  padding: 68px 0 68px 0;
+  margin-bottom: 124px;
 }
 
-.banner h1 {
-  margin: 0;
-  color: #FFFFFF;
-  font-size: 36px;
-  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+.wrapper {
+  display: grid;
+  grid-template-columns: 25% 65% 10%;
 }
 
-.banner p {
-  margin: 0 0 50px 0;
-  color: #FFFFFF;
-  font-size: 16px;
-  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+.item1 {
+  text-align: center;
+  margin: auto;
+}
+
+.item2 {
+  padding-left: 16px;
 }

@@ -1,0 +1,20 @@
+.top {
+  padding: 80px;
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline a {
+  font-size: 28px;
+  text-decoration: none;
+  color: #000000;
+}
