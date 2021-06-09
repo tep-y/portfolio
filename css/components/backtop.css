@@ -1,0 +1,31 @@
+.top-link {
+  transition: all .25s ease-in-out;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 2em 2em 0;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+  color: black;
+  font-size: 48px;
+  z-index: 2;
+}
+
+.top-link.show {
+    visibility: visible;
+    opacity: 1;
+  }
+
+.top-link.hide {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+.top-link:hover {
+    color: #FFDCCC;
+	}
+}

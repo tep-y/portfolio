@@ -26,13 +26,17 @@
   }
 }
 
-/* navbar */
+/* navbar & back to top */
 @media only screen and (max-width: 750px) {
   .links-top {
     display: block;
   }
 
   .links-top h3 {
+    display: none;
+  }
+
+  #js-top {
     display: none;
   }
 }

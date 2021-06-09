@@ -3,6 +3,7 @@
 @import url('./project.css');
 @import url('./responsiveness.css');
 @import url('./footer.css');
+@import url('./backtop.css');
 
 /* projects */
 @import url('./projects/alcyon.css');

@@ -11,8 +11,7 @@
 <body>
 
   <!-- code a Hero / Banner section -->
-  <script>console.log("hello")</script>
-  <div class="contact-info">
+  <div class="contact-info" id="top">
     <div class="links-top">
       <h3 class="welcome">Welcome, my name is Tep</h3>
       <ul class="list-inline">
@@ -45,6 +44,8 @@
     </div>
   </div>
 
+  <a href="" class="top-link show" id="js-top"><i class="fas fa-angle-double-up"></i></a>
+  
   <div class="project" id="alcyon">
     <div class="title alycon">
       <h1>Alcyon</h1>
@@ -137,6 +138,32 @@
       <p id="footer-text">© 2021 Entirely made by Tep Y. All rights reserved</p>
     </div>
   </div>
+
+<script>
+  console.log("hello");
+  const scrollToTopButton = document.getElementById("js-top");
+
+  const scrollFunc = () => {
+    let y = window.scrollY;
+    
+    if (y > 620) {
+      scrollToTopButton.className = "top-link show";
+    } else {
+      scrollToTopButton.className = "top-link hide";
+    }
+  };
+
+  window.addEventListener("scroll", scrollFunc);
+
+  const scrollToTop = () => {
+  const c = document.documentElement.scrollTop || document.body.scrollTop;
+
+  if (c > 0) {
+    window.requestAnimationFrame(scrollToTop);
+    window.scrollTo(0, c - c / 10);
+  }
+  };
+</script>
 
 </body>
 </html>
