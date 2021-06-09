@@ -3,17 +3,6 @@
   text-align: center;
 }
 
-.footer {
-  padding: 32px;
-  text-align: center;
-}
-
-.footer p {
-  font-size: 11px;
-  margin: 0;
-  padding-top: 32px;
-}
-
 .list-inline {
   list-style: none;
   padding-left: 0px;
@@ -37,14 +26,4 @@
 .links-top {
   display: flex;
   justify-content: space-between;
-}
-
-@media (max-width: 750px) {
-  .links-top {
-    display: block;
-  }
-
-  .links-top h3 {
-    display: none;
-  }
 }

@@ -17,3 +17,7 @@
 .item2 {
   padding-left: 16px;
 }
+
+.dev-name-full {
+  display: none;
+}

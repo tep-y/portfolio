@@ -18,13 +18,3 @@
 .project-dev {
   background-color: #FFDCCC;
 }
-
-@media (min-width: 420px) {
-  .project {
-    display: grid;
-    grid-template-columns: repeat(12, [col-start] 1fr);
-    gap: 20px;
-    max-width: 50%;
-    margin: auto;
-  }
-}

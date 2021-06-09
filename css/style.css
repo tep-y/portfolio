@@ -50,23 +50,3 @@ a {
   color: #FFDCCC;
   font-weight: 700;
 }
-
-/* Larger than mobile */
-@media (min-width: 420px) {
-  h1, h2 {
-    font-size: 72px;
-  }
-}
-
-/* Larger than tablet */
-@media (min-width: 780px) {
-  .main-title {
-    display: flex;
-    justify-content: space-around;
-  }
-}
-
-/* Larger than desktop */
-@media (min-width: 1000px) {
-
-}

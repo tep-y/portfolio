@@ -1,6 +1,8 @@
 @import url('./icons.css');
 @import url('./banner.css');
 @import url('./project.css');
+@import url('./responsiveness.css');
+@import url('./footer.css');
 
 /* projects */
 @import url('./projects/alcyon.css');

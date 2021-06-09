@@ -17,23 +17,3 @@
 .freepour-item1 {
   width: 260px;
 }
-
-@media (min-width: 420px) {
-  .description.freepour p {
-    width: 350px;
-  }
-
-  .freepour-item1 {
-    width: 468px;
-  }
-}
-
-@media (min-width: 750px) {
-  .description.freepour p {
-    width: 455px;
-  }
-
-  .freepour-item1 {
-    width: 608px;
-  }
-}
