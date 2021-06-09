@@ -2,13 +2,13 @@
 /* Large devices (> 750px) */
 
 /* body */
-@media (min-width: 420px) {
+@media only screen and (min-width: 500px) and (max-width: 2000px) {
   h1, h2 {
-    font-size: 72px;
+    font-size: 72px !important;
   }
 }
 
-@media (min-width: 780px) {
+@media only screen and (min-width: 780px) {
   .main-title {
     display: flex;
     justify-content: space-around;
@@ -16,7 +16,7 @@
 }
 
 /* project container */
-@media (min-width: 420px) {
+@media only screen and (min-width: 420px) {
   .project {
     display: grid;
     grid-template-columns: repeat(12, [col-start] 1fr);
@@ -27,7 +27,7 @@
 }
 
 /* navbar */
-@media (max-width: 750px) {
+@media only screen and (max-width: 750px) {
   .links-top {
     display: block;
   }
@@ -38,7 +38,7 @@
 }
 
 /* banner */
-@media (min-width: 900px) {
+@media only screen and (min-width: 900px) {
   .dev-name {
     display: none;
   }
@@ -48,204 +48,207 @@
   }
 }
 
+/* @media only screen and (min-width: 680px) and (max-width: 900px) { */
 /* alcyon */
-@media (min-width: 420px) {
+@media only screen and (min-width: 420px) and (max-width: 780px){
   #alcyon {
-    padding-bottom: 350px;
+    padding-bottom: 350px !important;
   }
 
   .alcyon-item1 {
-    position: absolute;
-    top: 120px;
-    left: 78px;
-    width: 392px;
+    position: absolute !important;
+    top: 120px !important;
+    left: 78px !important;
+    width: 392px !important;
   }
-  
+
   .alcyon-item2 {
-    position: absolute;
-    top: 398px;
-    left: -100px;
-    width: 371px;
+    position: absolute !important;
+    top: 398px !important;
+    left: -100px !important;
+    width: 371px !important;
   }
   
   .alcyon-item3 {
-    position: absolute;
-    top: 600px;
-    left: 169px;
-    width: 443px;
-    z-index: -1;
+    position: absolute !important;
+    top: 600px !important;
+    left: 169px !important;
+    width: 443px !important;
+    z-index: -1 !important;
   }
 }
 
-@media (min-width: 750px) {
+@media only screen and (min-width: 781px){
   #alcyon {
-    padding-bottom: 550px;
+    padding-bottom: 550px !important;
   }
   
   .alcyon-item1 {
-    width: 509px;
+    top: 120px !important;
+    left: 78px !important;
+    width: 509px !important;
   }
 
   .alcyon-item2 {
-    top: 342px;
-    left: -350px;
-    width: 482px;
+    top: 342px !important;
+    left: -350px !important;
+    width: 482px !important;
   }
   
   .alcyon-item3 {
-    top: 621px;
-    left: 220px;
-    width: 575px;
+    top: 621px !important;
+    left: 220px !important;
+    width: 575px !important;
   }
 }
 
 /* cocotte */
-@media (min-width: 420px) {
+@media only screen and (min-width: 420px) and (max-width: 780px){
   #cocotte {
-    padding-bottom: 660px;
+    padding-bottom: 660px !important;
   }
 
   .cocotte-item1 {
-    width: 399px;
+    width: 399px !important;
   }
   
   .cocotte-item2 {
-    top: 157px;
-    left: -140px;
-    width: 337px;
+    top: 157px !important;
+    left: -140px !important;
+    width: 337px !important;
   }
   
   .cocotte-item3 {
-    left: 180px;
-    width: 312px;
+    left: 180px !important;
+    width: 312px !important;
   }
   
   .cocotte-item4 {
-    left: -140px;
-    width: 539px;
+    left: -140px !important;
+    width: 539px !important;
   }
 }
 
-@media (min-width: 750px) {
+@media only screen and (min-width: 781px) {
   #cocotte {
-    padding-bottom: 880px;
+    padding-bottom: 880px !important;
   }
 
   .cocotte-item1 {
-    width: 519px;
+    width: 519px !important;
   }
   
   .cocotte-item2 {
-    left: -264px;
-    width: 438px;
+    left: -264px !important;
+    width: 438px !important;
   }
   
   .cocotte-item3 {
-    left: 374px;
-    width: 405px;
+    left: 374px !important;
+    width: 405px !important;
   }
   
   .cocotte-item4 {
-    width: 700px;
-  }
-}
-
-/* freepour */
-@media (min-width: 420px) {
-  .description.freepour p {
-    width: 350px;
-  }
-
-  .freepour-item1 {
-    width: 468px;
-  }
-}
-
-@media (min-width: 750px) {
-  .description.freepour p {
-    width: 455px;
-  }
-
-  .freepour-item1 {
-    width: 608px;
+    width: 700px !important;
   }
 }
 
 /* leduc */
-@media (min-width: 420px) {
+@media only screen and (min-width: 420px) and (max-width: 780px){
   #leduc {
-    padding-bottom: 412px;
+    padding-bottom: 412px !important;
   }
 
   .title.leduc {
-    grid-row: 22;
+    grid-row: 22 !important;
   }
   
   .description.leduc {
-    grid-column: col-start 7 / span 6;
-    grid-row: 23;
+    grid-column: col-start 7 / span 6 !important;
+    grid-row: 23 !important;
   }
 
   .leduc-item1 {
-    width: 554px;
+    width: 554px !important;
   }
   
   .leduc-item2 {
-    top: 574px;
-    left: 56px;
-    width: 371px;
+    top: 574px !important;
+    left: 56px !important;
+    width: 371px !important;
   }
   
   .leduc-item3 {
-    top: 453px;
-    left: -164px;
-    width: 273px;
+    top: 453px !important;
+    left: -164px !important;
+    width: 273px !important;
   }
 }
 
-@media (min-width: 750px) {
+@media only screen and (min-width: 781px) {
   #leduc {
-    padding-bottom: 638px;
+    padding-bottom: 638px !important;
   }
 
   .description.leduc {
-    grid-row: 25;
+    grid-row: 25 !important;
   }
 
   .leduc-item1 {
-    width: 720px;
+    width: 720px !important;
   }
   
   .leduc-item2 {
-    top: 672px;
-    left: 83px;
-    width: 482px;
+    top: 672px !important;
+    left: 83px !important;
+    width: 482px !important;
   }
   
   .leduc-item3 {
-    top: 506px;
-    left: -204px;
-    width: 354px;
+    top: 506px !important;
+    left: -204px !important;
+    width: 354px !important;
+  }
+}
+
+/* freepour */
+@media only screen and (min-width: 420px) and (max-width: 780px){
+  .description.freepour p {
+    width: 350px !important;
+  }
+
+  .freepour-item1 {
+    width: 468px !important;
+  }
+}
+
+@media only screen and (min-width: 781px) {
+  .description.freepour p {
+    width: 455px !important;
+  }
+
+  .freepour-item1 {
+    width: 608px !important;
   }
 }
 
 /* notifiQ */
-@media (min-width: 420px) {
+@media only screen and (min-width: 420px) {
   .description.notifiq p {
-    width: 350px;
+    width: 350px !important;
   }
 
   .notifiq-item1 {
-    width: 500px;
+    width: 500px !important;
   }
 }
 
-@media (min-width: 750px) {
+@media only screen and (min-width: 781px) {
   .description.notifiq p {
-    width: 455px;
+    width: 455px !important;
   }
 
   .notifiq-item1 {
-    width: 650px;
+    width: 650px !important;
   }
 }
