@@ -3,11 +3,37 @@
   padding: 150px 0 50px 0;
 }
 
-.title.freepour, .description.freepour {
+.title.freepour {
   text-align: center;
   margin: 0 32px 0 32px;
 }
 
+.description.freepour p {
+  margin: auto;
+  width: 250px;
+  padding: 24px 0 24px 0;
+}
+
 .freepour-item1 {
   width: 260px;
+}
+
+@media (min-width: 420px) {
+  .description.freepour p {
+    width: 350px;
+  }
+
+  .freepour-item1 {
+    width: 468px;
+  }
+}
+
+@media (min-width: 750px) {
+  .description.freepour p {
+    width: 455px;
+  }
+
+  .freepour-item1 {
+    width: 608px;
+  }
 }

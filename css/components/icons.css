@@ -29,3 +29,7 @@
   text-decoration: none;
   color: #000000;
 }
+
+.list-inline a:hover {
+  color: #FFDCCC;
+}

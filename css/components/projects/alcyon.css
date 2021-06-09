@@ -34,3 +34,53 @@
   width: 317px;
   z-index: -1;
 }
+
+@media (min-width: 420px) {
+  #alcyon {
+    padding-bottom: 350px;
+  }
+
+  .alcyon-item1 {
+    position: absolute;
+    top: 120px;
+    left: 78px;
+    width: 392px;
+  }
+  
+  .alcyon-item2 {
+    position: absolute;
+    top: 398px;
+    left: -100px;
+    width: 371px;
+  }
+  
+  .alcyon-item3 {
+    position: absolute;
+    top: 600px;
+    left: 169px;
+    width: 443px;
+    z-index: -1;
+  }
+}
+
+@media (min-width: 750px) {
+  #alcyon {
+    padding-bottom: 550px;
+  }
+  
+  .alcyon-item1 {
+    width: 509px;
+  }
+
+  .alcyon-item2 {
+    top: 342px;
+    left: -350px;
+    width: 482px;
+  }
+  
+  .alcyon-item3 {
+    top: 621px;
+    left: 220px;
+    width: 575px;
+  }
+}

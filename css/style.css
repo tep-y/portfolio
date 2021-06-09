@@ -57,8 +57,10 @@ a {
 
 
 /* Larger than mobile */
-@media (min-width: 400px) {
-
+@media (min-width: 420px) {
+  h1, h2 {
+    font-size: 72px;
+  }
 }
 
 /* Larger than tablet */
