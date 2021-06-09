@@ -6,8 +6,6 @@
 
 /* Other components */
 @import url('components/index.css');
-/* @import url('components/button.css');
-@import url('components/card.css'); */
 
 /* Utilities */
 html, body {
@@ -27,11 +25,19 @@ h1 {
 .main-title {
   text-align: center;
   padding-bottom: 150px;
+  list-style: none;
+  padding-left: 0px;
 }
+
 
 h2 {
   font-size: 36px;
   font-weight: 700;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 600;
 }
 
 p {
@@ -39,22 +45,11 @@ p {
   font-weight: 400;
 }
 
-/* h1, h2, h3, h4 {
-  font-family: 'Josefin Sans', sans-serif;
-} */
-
 a {
   text-decoration: none;
   color: #FFDCCC;
   font-weight: 700;
 }
-
-/* #foot-text p {
-  font-size: 10px;
-} */
-
-/* Custom design below! */
-
 
 /* Larger than mobile */
 @media (min-width: 420px) {
@@ -64,8 +59,11 @@ a {
 }
 
 /* Larger than tablet */
-@media (min-width: 750px) {
-
+@media (min-width: 780px) {
+  .main-title {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 /* Larger than desktop */

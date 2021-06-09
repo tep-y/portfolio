@@ -33,3 +33,18 @@
 .list-inline a:hover {
   color: #FFDCCC;
 }
+
+.links-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 750px) {
+  .links-top {
+    display: block;
+  }
+
+  .links-top h3 {
+    display: none;
+  }
+}
